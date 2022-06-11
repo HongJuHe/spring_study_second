@@ -23,3 +23,4 @@ springMVC는 프레젠테이션 계층에서 동작한다. (Controller 포함)
 서비스 계층에서는 비즈니스 도메인, 데이터 엑세스 계층은 DB 접근
 (그래서 각 계층에 맞게 Controller, Service, DAO를 나누어야 변경 용이)
 
+entity 제작 시, 최대한 setter를 사용하지 말고 메소드(특정 행위)를 통해서 상태를 변하게 하도록 할것
